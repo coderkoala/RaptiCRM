@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rapti_crm *.css
+recursive-include rapti_crm *.csv
+recursive-include rapti_crm *.html
+recursive-include rapti_crm *.ico
+recursive-include rapti_crm *.js
+recursive-include rapti_crm *.json
+recursive-include rapti_crm *.md
+recursive-include rapti_crm *.png
+recursive-include rapti_crm *.py
+recursive-include rapti_crm *.svg
+recursive-include rapti_crm *.txt
+recursive-exclude rapti_crm *.pyc
